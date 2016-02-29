@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Sources:\n\nOculus Rift image:\nhttps://static.oculus.com\n\nVehicle Network Image:\nautoguide.com\n\nPower over Wifi:\nhttp://thenewstack.io\n\nInternet.org:\ninvestopedia.com\n\nInformation:\ntechnologyreview.com, wikipedia.com"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="2dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"/>
+
+    </LinearLayout>

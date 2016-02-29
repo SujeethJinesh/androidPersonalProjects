@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Vehicle Network (2015)"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/colorAccent"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="As an extension to the internet of things, and Google's self-driving car, this neural network vastly reduces the number of human errors by replacing them with computers."
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/vehicle_communication"
+        android:scaleType="centerCrop"/>
+
+</LinearLayout>

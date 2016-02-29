@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <Button
+            android:id="@+id/createButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="createButtonMethod"
+            android:padding="16dp"
+            android:text="Create"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/recordsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/createButton"
+            android:onClick="recordsButtonMethod"
+            android:padding="16dp"
+            android:text="Records"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recordsButton"
+            android:onClick="settingsButtonMethod"
+            android:padding="16dp"
+            android:text="Settings"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/syncButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/settingsButton"
+            android:onClick="syncButtonMethod"
+            android:padding="16dp"
+            android:text="Sync"
+            android:textSize="60sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
